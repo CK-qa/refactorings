@@ -15,6 +15,9 @@ import java.util.*;
 public class Airport {
     private List<? extends Plane> planes;
 
+    public String this_method_as_also_added() {
+        return "added-added";
+    }
     public void i_am_add_it_here_one() {
 
     }
