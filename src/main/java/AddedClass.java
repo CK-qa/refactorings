@@ -12,10 +12,6 @@ public class AddedClass {
         return stringValue.length();
     }
 
-    public boolean isEmpty() {
-        return stringValue.isEmpty();
-    }
-
     public char charAt(int index) {
         return stringValue.charAt(index);
     }
@@ -266,5 +262,8 @@ public class AddedClass {
         super.finalize();
     }
 
+    public boolean isEmpty() {
+        return stringValue.isEmpty();
+    }
 
 }
