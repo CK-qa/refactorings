@@ -1,4 +1,5 @@
 import Planes.experimentalPlane;
+import common.Airport;
 import models.ClassificationLevel;
 import models.ExperimentalTypes;
 import models.MilitaryType;

@@ -1,3 +1,5 @@
+package common;
+
 import models.MilitaryType;
 import Planes.MilitaryPlane;
 import Planes.PassengerPlane;

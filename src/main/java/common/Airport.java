@@ -1,3 +1,5 @@
+package common;
+
 import Planes.experimentalPlane;
 import models.MilitaryType;
 import Planes.MilitaryPlane;
@@ -99,7 +101,7 @@ public class Airport {
 
     /**
      * Sorts by max speed
-     * @return Airport
+     * @return common.Airport
      */
     public Airport sortByMaxSpeed() {
         Collections.sort(planes, new Comparator<Plane>() {
@@ -133,7 +135,7 @@ public class Airport {
 
     @Override
     public String toString() {
-        return "Airport{" +
+        return "common.Airport{" +
                 "Planes=" + planes.toString() +
                 '}';
     }
