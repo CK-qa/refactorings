@@ -4,6 +4,5 @@ public enum ClassificationLevel {
     UNCLASSIFIED,
     CONFIDENTIAL,
     SECRET,
-    TOP_SECRET,
-    NOBODY_KNOWS
+    TOP_SECRET
 }
