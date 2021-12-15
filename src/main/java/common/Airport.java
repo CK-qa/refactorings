@@ -15,7 +15,9 @@ import java.util.*;
 public class Airport {
     private List<? extends Plane> planes;
 
+    public void i_am_add_it_here_one() {
 
+    }
 
     public List<PassengerPlane> getPasPl() {
         List<? extends Plane> l = this.planes;
