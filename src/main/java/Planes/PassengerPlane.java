@@ -13,10 +13,6 @@ public class PassengerPlane extends Plane{
         this.passengersCapacity = passengersCapacity;
     }
 
-    public static void foo() {
-        new Plane("moved from plane", 20000, 3333, 232323);
-    }
-
 
     //=================METHODS=================
     public int getPassengersCapacity() {

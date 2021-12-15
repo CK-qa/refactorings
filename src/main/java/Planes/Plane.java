@@ -15,6 +15,10 @@ public class Plane {
         this.maxLoadCapacity = maxLoadCapacity;
     }
 
+    public static void foo() {
+        new Plane("moved from plane", 20000, 3333, 232323);
+    }
+
     public String getModel() {
         return model;
     }
