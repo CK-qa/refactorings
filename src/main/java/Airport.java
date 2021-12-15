@@ -57,7 +57,7 @@ public class Airport {
     List<MilitaryPlane> militaryPlanes = getMilitaryPlanes();
     for (int i = 0; i < militaryPlanes.size(); i++) {
     MilitaryPlane plane = militaryPlanes.get(i);
-    if (plane.getType() == MilitaryType.TRANSPORT) {
+    if (plane.getType() == MilitaryType.TRANSPORT_MILITARY) {
     transportMilitaryPlanes.add(plane);
     }
     }
